@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+       <input type="text" placeholder="username" id="username"><br><br>
+       <input type="password" placeholder="password" id="password"><br><br>
+       <b>
+        <button id="submit1" onclick="enterData()" value="EnterData">EnterData</button> &nbsp; &nbsp; &nbsp; &nbsp;
+        <button id="submit2" onclick="readData()" value="ReadData">ReadData</button></b><br><br>
+        <b>
+         <button id="submit3" onclick="updateData()" value="updateData">UpdateData</button> &nbsp; &nbsp; &nbsp; &nbsp;
+         <button id="submit4" onclick="removeData()" value="removeData">RemoveData</button></b>
+         <br><br><br><br>
+         <table border='1' id="userList">
+             <tr>
+               <th>Username</th>
+             </tr>
+         </table>
+<script src="loginfb.js"></script>
+</body>
+</html>
+
+  
